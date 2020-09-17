@@ -348,14 +348,14 @@ The health and education access index variables are essentially a count of healt
 The Accessibility Indices for education and health are each mapped below. 
 This first map shows the level of accessibility to educational facilities for each county. The data show that Page County has low access to education. This is supported by the isochrone mappings above. 
 <center>
-![Page](/findings/spatialMaps/Education.png){width=600px height=450px}
+![Page](/dspg20page/findings/spatialMaps/Education.png){width=600px height=450px}
 </center>
 
 The state map below shows the level of accessibility to health care facilities for each county in Virginia. The data show that Page County has medium-low access to health care. Supported by the isochrone mappings above we see that health care services are more accessible in Page County than education services. 
 
 
 <center>
-![Page](/findings/spatialMaps/HealthCare.png){width=600px height=450px}
+![Page](/dspg20page/findings/spatialMaps/HealthCare.png){width=600px height=450px}
 </center>
 
 

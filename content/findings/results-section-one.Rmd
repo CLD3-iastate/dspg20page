@@ -25,7 +25,7 @@ The racing incarceration rates below show that rates in Page County are relative
 
 <center>
 
-![](/images/race3.gif)
+![](/dspg20page/images/race3.gif)
 </center>
 
 Taking a closer look at the comparison of Page County incarceration rates to the average rates in Virginia, we can see that a large gap has developed since the year 2000..
@@ -72,7 +72,7 @@ p
 While the substance abuse arrest data may be indicative of many factors including law and law enforcement practices, the rural areas of Virginia can be seen to have higher substance abuse arrest rates. This may be indicative of growing substance abuse problems in rural areas which is supported by other studies in the literature (Pullen and Oser, 2014; Schoeneberger et al., 2006).
 </center>
 <center>
-![Page](/images/substance_arrests.png){width=700px height=350px}
+![Page](/dspg20page/images/substance_arrests.png){width=700px height=350px}
 </center>
 
 

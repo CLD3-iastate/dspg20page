@@ -37,7 +37,7 @@ The SEVI is shown in the figure below where darker colors represent more vulnera
 While he SEVI is only one measure in assessing areas that may be in need of targeted assistance, the data displayed from the SEVI as well as the other measures discussed provide evidence that Page County is an outlier in its region of the state. These results could be used by Page County for grant and program applications to better serve its residents for the future. Increased funding and program implementation would mitigate the low accessibility to education and healthcare which fosters growth in employment, income and economic mobility. For Page county, increasing returns in these areas could then lead to decreased social and economic vulnerability.
 
 <center>
-![Page](/findings/spatialMaps/composite.png){width=600px height=450px}
+![Page](/dspg20page/findings/spatialMaps/composite.png){width=600px height=450px}
 </center>
 
 

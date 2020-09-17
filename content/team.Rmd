@@ -24,7 +24,7 @@ Our project goal was to identify community capital in Page County, find ways to 
 ### DSPG Team Members {style=text-align:center}
 
 <center>
-![Josh Beverly](/images/Josh.Beverly.VT.jpg){width=150px height=200px}![Talib Grant](/Talib.Grant.VT.jpg){width=150px height=200px} ![Laura Pranteddu](/images/Laura.Pranteddu.VT.JPG){width=150px height=200px} ![Afrina Tabassum](/images/Afrina.Tabassum.VT.jpg){width=150px height=200px}
+![Josh Beverly](/dspg20page/images/Josh.Beverly.VT.jpg){width=150px height=200px}![Talib Grant](/dspg20page/Talib.Grant.VT.jpg){width=150px height=200px} ![Laura Pranteddu](/dspg20page/images/Laura.Pranteddu.VT.JPG){width=150px height=200px} ![Afrina Tabassum](/dspg20page/images/Afrina.Tabassum.VT.jpg){width=150px height=200px}
 
 <!---
 <img src="/team/Josh.Beverly.VT.jpg" alt = "Josh Beverly" width="150"/> <img src="/Talib.Grant.VT.jpg" width="150"/> <img src="/team/Laura.Pranteddu.VT.JPG" width="150"/> <img src="/team/Afrina.Tabassum.VT.jpg" width="150"/>
@@ -45,10 +45,10 @@ Our project goal was to identify community capital in Page County, find ways to 
 
 ### Virginia Tech Faculty Team Members {style=text-align:center}
 
-![Susan Chen](/images/Susan.Chen.VT.jpg){width=150px height=200px}
-![Conaway Haskins](/images/Conaway.Haskins.VT.jpg){width=150px height=200px}
-![Matt Holt](/images/Matt.Holt.VT.jpg){width=150px height=200px}
-![Ford Ramsey](/images/Ford.Ramsey.VT.jpg){width=150px height=200px}
+![Susan Chen](/dspg20page/images/Susan.Chen.VT.jpg){width=150px height=200px}
+![Conaway Haskins](/dspg20page/images/Conaway.Haskins.VT.jpg){width=150px height=200px}
+![Matt Holt](/dspg20page/images/Matt.Holt.VT.jpg){width=150px height=200px}
+![Ford Ramsey](/dspg20page/images/Ford.Ramsey.VT.jpg){width=150px height=200px}
 
 
 [Susan Chen (Associate Professor, Food and Health Economics, DSPG Project Co-Lead)](https://aaec.vt.edu/people/faculty/chen-susan.html)
@@ -61,7 +61,7 @@ Our project goal was to identify community capital in Page County, find ways to 
 
 ### Project Sponsors/Stakeholders {style=text-align:center}
 <center>
-![VCE](/images/VCE.Logo.png){width=300px height=200px}
+![VCE](/dspg20page/images/VCE.Logo.png){width=300px height=200px}
 <center>
 
 [Molly Beardslee (SNAP-ED Agent - Page County, Family and Consumer Sciences Food, Nutrition & Health)](https://page.ext.vt.edu/staff/Beardslee-Molly.html)
