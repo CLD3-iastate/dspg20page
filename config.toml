@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://dspg-young-scholars-program.github.io/dspg20page"
 languageCode = "en-us"
 title = "UVA Biocomplexity Institute"
 description = "A website for University of Virginia's 2020 Data Science for the Public Good Program."
@@ -14,7 +14,7 @@ publishDir = "docs"
 
 [params]
     author = "UVA Biocomplexity Institute"
-    description = "2020 DSPG Page County"
+    description = "2020 DSPG Page County Recidivism Project"
     logo = "favicon/uva-dspg-logo.jpg"
     githubUsername = "uva-bi-sdad"
     accent = "#232D4B" # dark colors do best
@@ -27,13 +27,8 @@ publishDir = "docs"
 # adjust these as you see fit
 [[menu.main]]
     url = "/"
-    name = "Home"
-    weight = 1
-
-[[menu.main]]
-    url = "/overview/"
     name = "Overview"
-    weight = 2
+    weight = 1
 
 [[menu.main]]
     url = "/methods/"
@@ -70,11 +65,3 @@ publishDir = "docs"
     name = "fab fa-twitter"
     weight = 3
     
-[[menu.icon]]
-    url = "mailto:kb7hp@virginia.edu"
-    name = "far fa-envelope"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
