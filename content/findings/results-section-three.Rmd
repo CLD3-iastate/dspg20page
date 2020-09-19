@@ -38,6 +38,7 @@ While he SEVI is only one measure in assessing areas that may be in need of targ
 
 <center>
 ![Page](/dspg20page/findings/spatialMaps/composite.png){width=600px height=450px}
+<!-- ![Page](../../static/findings/spatialMaps/composite.png){width=600px height=450px} -->
 </center>
 
 

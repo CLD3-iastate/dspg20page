@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
-        <link rel="canonical" href="/dspg20page/findings/isochrones/read/">
+        <title>Results Section Two</title>
+        <link rel="canonical" href="/dspg20page/findings/results-section-two.utf8/">
         <style>
 
     html body {
@@ -113,14 +113,14 @@ $(document).ready(function(){
 
     
     
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Results Section Two">
     <meta property="og:type" content="article">
       
       <meta name="twitter:card" content="summary">
       <meta name="twitter:image" content="/dspg20pagefavicon/uva-dspg-logo.jpg" >
       
-    <meta property="description" content="">
-    <meta property="og:description" content="">
+    <meta property="description" content="Accessibility Measures">
+    <meta property="og:description" content="Accessibility Measures">
     
     <meta name="twitter:creator" content="">
     <meta name="twitter:site" content="">
@@ -204,13 +204,13 @@ $(document).ready(function(){
     
 
     
-    
+      
       
     
 
-    <h4><a href="/dspg20page/findings/isochrones/read/"></a></h4>
+    <h4><a href="/dspg20page/findings/results-section-two.utf8/">Results Section Two</a></h4>
     
-    <h5></h5>
+    <h5>Accessibility Measures</h5>
 
     
     
@@ -218,7 +218,41 @@ $(document).ready(function(){
 </div>
 
 
-    <br> <div class="text-justify"><p>isochrones</p>
+    <br> <div class="text-justify"><h2 id="main-findings">Main Findings</h2>
+<p>Economic Vulnerability may also be affected by health and education accessibility. Those with access to health and education facilities were less likely to be poor and vulnerable (Gil et al., 2014). We measured health and educational access separately in each Virginia County using multiple indicators. The health indicators correspond to hospitals, clinics, counseling centers, and other health facilities that are immediately in aid of a vulnerable population. The education indicators correspond to colleges, universities, career training facilities, and other educational and training sources for continued education after high school.</p>
+<p>###Isochrone Mappings
+To begin, we created the following travel isochrones which are mappings of floating catchment areas calculated by method of travel and time to travel. A travel net is displayed centered at health, education, and workforce training facilities to provide a measure of accessibility.</p>
+<h4 id="mapping-1">Mapping 1:</h4>
+<p>The following travel isochrone shows the areas that are within a 20-minute driving window of heath services.The mapping shows that residents in some parts of the county have to drive over 20 minutes to get to physical and mental health services.</p>
+<p>preservea3a0be1af4ac226b</p>
+<h4 id="mapping-2">Mapping 2:</h4>
+<p>The following travel isochrone shows the areas that are within a 20-minute driving window of a hospital in and around Page County. The mapping similarly shows that access to a local hospital is limited for areas in and around Page County.</p>
+<p>preserve1bda7045b63e361a</p>
+<h4 id="mapping-3">Mapping 3:</h4>
+<p>The following travel isochrone shows the areas that are within a 20-minute driving window of a college or university. The mapping shows that there are no colleges or universities in Page County or with-in a 20-minute drive. This lack of access is one indication of a barrier to education and economic mobility.</p>
+<p>preserve4c02513f7cdf58d7</p>
+<h4 id="mapping-4">Mapping 4:</h4>
+<p>The following travel isochrone shows the areas that are within a 20-minute driving window of a workforce development center. The mapping shows that most of the county is covered by the 20-minute driving window. Additionally, a number of locations are present outside the county borders.</p>
+<p>preserve43e66692385e2db9</p>
+<h4 id="mapping-5">Mapping 5:</h4>
+<p>The following travel isochrone shows the areas that are within a 20-minute driving window of a small business development centers. The mapping shows that there are no centers in Page County or with-in a 20-minute drive. According to the data, only one is present in the counties surrounding Page County.</p>
+<p>preserve0875491441e10c15</p>
+<p>###Health and Education Accessibility Scores</p>
+<p>To calculate a regional accessibility indicator at the county level, we first determined the location within each county that we used to measure the distance to health and education facilities. Instead of using the geographic center of each county, we used the geometric center weighted by population density. This is especially important for large counties where the bulk of the population may reside in only a small part of the county. This is equally as important for rural counties where most of the population is not located in the exact center of the county. The population-weighted centroid was constructed using the <a href="https://www.census.gov/geographies/reference-files/2010/geo/2010-centers-population.html">Centers of Population for the 2010 Census.</a></p>
+<p>Only health and education centers within a certain radius of the center of the county were taken in constructing the health and education access indices. Travel beyond a certain distance to health and education resources is unlikely especially with a lack of access to adequate transportation.
+For each Virginia county, only facilities within a specified radius would contribute to each county indicator. We calculated each index using the following formula;</p>
+<p>$$\mathcal{A_i} = \frac{\sum\limits_{j=1}^n \frac{1}{dist_{i}}}{pop_i}$$</p>
+<p>where $A_{i}$ is accessibility index for county $i$, $dist_{i,j}$ is the distance from the population weighted centroid for each county $i$ to each education or health center $j$, and $pop_i$ is the population for each county $i$.</p>
+<p>The summation of the inverse distances between each education or health facility to the county population center was used to weight the closer resources higher than those further away.</p>
+<p>The health and education access index variables are essentially a count of health and education facilities within the specified radius weighted by the inverse distance to each facility. Facilities that are closer to the population center result in a higher access index. This population weighting accounts for major differences in rural, suburban, and urban areas.</p>
+<p>The Accessibility Indices for education and health are each mapped below.
+This first map shows the level of accessibility to educational facilities for each county. The data show that Page County has low access to education. This is supported by the isochrone mappings above.</p>
+<!-- raw HTML omitted -->
+<p>The state map below shows the level of accessibility to health care facilities for each county in Virginia. The data show that Page County has medium-low access to health care. Supported by the isochrone mappings above we see that health care services are more accessible in Page County than education services.</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">mapviewOptions</span>(fgb <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>)
+</code></pre></div><h3 id="references">References</h3>
+<p>[Gill, I. S., Revenga, A., &amp; Zeballos, C. (2016). Grow, invest, insure: A game plan to end extreme poverty by 2030. The World Bank.]</p>
 </div>
 
     

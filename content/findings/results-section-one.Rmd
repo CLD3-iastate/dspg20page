@@ -75,7 +75,6 @@ While the substance abuse arrest data may be indicative of many factors includin
 ![Page](/dspg20page/images/substance_arrests.png){width=700px height=350px}
 </center>
 
-
 ##References:
 Dadashazar, N. (2017). Offender recidivism: A quantitative study of motivational risk factors and counseling.
 

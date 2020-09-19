@@ -110,7 +110,7 @@ $(document).ready(function(){
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    
+
     
     
     <meta property="og:title" content="Results Section Two">
@@ -124,7 +124,7 @@ $(document).ready(function(){
     
     <meta name="twitter:creator" content="">
     <meta name="twitter:site" content="">
-    
+
     </head>
 
     
@@ -134,39 +134,56 @@ $(document).ready(function(){
     </script>
     
 
+
+    <style>
+      .container {
+      	text-align: center;
+      	border: 0px solid green;
+      }
+      .container ul {
+      	border: 0px solid red;
+      	display: inline-block;
+      	margin: 10px 0;
+      	padding: 2px;
+      }
+      .container li {
+      	display: inline-block;
+      	font-weight: bold;
+      }
+      .container li a {
+      	display: inline-block;
+      	color: #FFF;
+      	padding: 5px;
+      	text-decoration: none;
+      }
+
+    </style>
+
     <body id = "bigbody">
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Results Section Two</a>
-                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse">
+            <div class="container" style="width:800px; margin: auto;">
+                <div class="collapse navbar-collapse container">
                     
-                        <ul class="nav navbar-nav">
+                        <ul class="nav">
+                          <li class="header_img">
+                            <img class="img-responsive" src="/dspg20pageimg/AEMLogoGatesColors-11.png" alt="Whoopsies, this is my bad side!" style = "margin: 0 auto; height: 42px"></li>
                             
-                                <li><a href="/dspg20page/">Overview</a></li>
+                                <li><a href="/dspg20page/" style="background-color: transparent;">Overview</a></li>
                             
-                                <li><a href="/dspg20page/methods/">Data &amp; Methods</a></li>
+                                <li><a href="/dspg20page/methods/" style="background-color: transparent;">Data &amp; Methods</a></li>
                             
-                                <li><a href="/dspg20page/findings/">Findings</a></li>
+                                <li><a href="/dspg20page/findings/" style="background-color: transparent;">Findings</a></li>
                             
-                                <li><a href="/dspg20page/team/">Team</a></li>
+                                <li><a href="/dspg20page/team/" style="background-color: transparent;">Team</a></li>
                             
                         </ul>
                     
                     
-                        <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav">
                             
-                                <li class="navbar-icon"><a href="https://biocomplexity.virginia.edu/social-decision-analytics/dspg-program"><i class="fas fa-globe-americas"></i></a></li>
+                                <li class="navbar-icon"><a href="https://github.com/jpbeverly/Page_website" style="background-color: transparent;"><i class="fab fa-github"></i></a></li>
                             
-                                <li class="navbar-icon"><a href="https://github.com/DSPG-Young-Scholars-Program"><i class="fab fa-github"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://twitter.com/UVA_BI"><i class="fab fa-twitter"></i></a></li>
+                                <li class="navbar-icon"><a href="mailto:jpbeverly@vt.edu" style="background-color: transparent;"><i class="far fa-envelope"></i></a></li>
                             
                             
                         </ul>
@@ -174,6 +191,8 @@ $(document).ready(function(){
                 </div>
             </div>
         </nav>
+
+
 
 
 <main>
@@ -200,6 +219,7 @@ $(document).ready(function(){
 
 
     <br> <div class="text-justify">
+<script src="/dspg20pagermarkdown-libs/header-attrs/header-attrs.js"></script>
 <script src="/dspg20pagermarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
 <script src="/dspg20pagermarkdown-libs/jquery/jquery.min.js"></script>
 <link href="/dspg20pagermarkdown-libs/leaflet/leaflet.css" rel="stylesheet" />
@@ -277,12 +297,15 @@ For each Virginia county, only facilities within a specified radius would contri
 The Accessibility Indices for education and health are each mapped below.
 This first map shows the level of accessibility to educational facilities for each county. The data show that Page County has low access to education. This is supported by the isochrone mappings above.
 <center>
-<img src="/dspg20page/findings/spatialMaps/Education.png" title="fig:" width="600" height="450" alt="Page" />
+<img src="/dspg20page/findings/spatialMaps/Education.png" width="600" height="450" alt="Page" />
+<!-- ![Page](../../static/findings/spatialMaps/Education.png){width=600px height=450px} -->
 </center>
 <p>The state map below shows the level of accessibility to health care facilities for each county in Virginia. The data show that Page County has medium-low access to health care. Supported by the isochrone mappings above we see that health care services are more accessible in Page County than education services.</p>
 <center>
-<img src="/dspg20page/findings/spatialMaps/HealthCare.png" title="fig:" width="600" height="450" alt="Page" />
+<img src="/dspg20page/findings/spatialMaps/HealthCare.png" width="600" height="450" alt="Page" />
+<!-- ![Page](../../static/findings/spatialMaps/HealthCare.png){width=600px height=450px} -->
 </center>
+<pre class="r"><code>#mapviewOptions(fgb = FALSE)</code></pre>
 </div>
 <div id="references" class="section level3">
 <h3>References</h3>
