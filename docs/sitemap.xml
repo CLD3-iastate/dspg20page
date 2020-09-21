@@ -35,6 +35,10 @@
   </url>
   
   <url>
+    <loc>/dspg20page/</loc>
+  </url>
+  
+  <url>
     <loc>/dspg20page/findings/</loc>
   </url>
   
@@ -48,10 +52,6 @@
   
   <url>
     <loc>/dspg20page/team/</loc>
-  </url>
-  
-  <url>
-    <loc>/dspg20page/</loc>
   </url>
   
 </urlset>
