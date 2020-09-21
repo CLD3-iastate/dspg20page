@@ -1,4 +1,4 @@
-baseURL = "https://dspg-young-scholars-program.github.io/dspg20page"
+baseURL = "https://dspg-young-scholars-program.github.io/dspg20page/"
 languageCode = "en-us"
 title = "UVA Biocomplexity Institute"
 description = "A website for University of Virginia's 2020 Data Science for the Public Good Program."
