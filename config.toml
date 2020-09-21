@@ -14,7 +14,7 @@ publishDir = "docs"
 
 [params]
     author = "UVA Biocomplexity Institute"
-    description = "Measuring Economic and Social Infrastructure: Intergenerational Poverty in Page County"
+    description = "MEASURING ECONOMIC AND SOCIAL INFRASTRUCTURE: INTERGENERATIONAL POVERTY IN PAGE COUNTY"
     logo = "favicon/uva-dspg-logo.jpg"
     githubUsername = "uva-bi-sdad"
     accent = "#232D4B" # dark colors do best
