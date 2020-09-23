@@ -245,6 +245,16 @@ $(document).ready(function(){
             
             var mytype = getUrlParam('type','Empty');
             
+            function changeLinks(parameter) {
+                links = document.getElementsByTagName("a");
+            
+                for(var i = 0; i < links.length; i++) { 
+                   var link = links[i];
+                   var newurl = link.href + '?type=' + parameter;
+                   link.setAttribute('href', newurl);
+                 } 
+            }
+            
        
            
            
@@ -255,18 +265,21 @@ $(document).ready(function(){
              x[0].innerHTML = '<div><a href="https://datascienceforthepublicgood.org/events/symposium2020/poster-sessions">' +
                               '<img src="/dspg20page/img/DSPG_white-01.png", alt="DSPG 2020 Symposium Proceedings", style="height:42px; margin-top:5px;">' +
                               '</a></div>';
-                              
-             var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?type=dspg';
              
-             window.history.pushState({path:newurl},'',newurl);
+             changeLinks('dspg');
+                              
+             
+             
+             
            } else {
              x[0].innerHTML = '<div><a href="https://datascienceforthepublicgood.org/economic-mobility/community-insights/case-studies">' +
                               '<img src="/dspg20page/img/AEMLogoGatesColors-11.png", alt="Gates Economic Mobility Case Studies", style="height:42px; margin-top:5px;">' +
                               '</a></div>';
              
-             var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?type=economic';
+             changeLinks('economic');
              
-             window.history.pushState({path:newurl},'',newurl);
+             
+             
            }
         </script>
        
